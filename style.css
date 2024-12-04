@@ -2,12 +2,12 @@
 
 :root {
   --color-1: #9cd31d5e;
-  --color-2: #4a0404;
+  --color-2: #4a0404cb;
   --color-3: #659b00de;
   --color-4: #9b352e;
   --color-5: #a1b618;
-  --text: #faf5e9;
-  --white: #fff;
+  --text: #faf5e994;
+  --white: #ffffffd7;
 }
 
 * {
@@ -27,6 +27,7 @@ body {
   background-attachment: fixed;
   background-origin: content-box;
   z-index: 0;
+  opacity: 0.7;
   /*background: linear-gradient(
     45deg,
     var(--color-1),
@@ -129,16 +130,16 @@ form button:hover {
   padding: 1rem;
   border: none;
   font-size: 1rem;
-  color: #fff;
+  color: #000;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 .complete-btn {
-  background: #5ada3b;
+  background: #5bda3b41;
 }
 
 .complete-btn:hover {
-  background: #79c965;
+  background: #79c96585;
 }
 
 .trash-btn {
