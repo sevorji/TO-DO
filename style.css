@@ -6,7 +6,7 @@
   --color-3: #659b00de;
   --color-4: #9b352e;
   --color-5: #a1b618;
-  --text: #faf5e994;
+  --text: #faf5e9e0;
   --white: #ffffffd7;
 }
 
@@ -21,13 +21,17 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+.overlay {
+  background-color: black;
+  opacity: 0.7;
+  height: inherit;
+}
 body {
   background-image: url("image/joanna-kosinska-1_CMoFsPfso-unsplash.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-origin: content-box;
   z-index: 0;
-  opacity: 0.7;
   /*background: linear-gradient(
     45deg,
     var(--color-1),

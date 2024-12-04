@@ -19,27 +19,29 @@
     <link rel="icon" href="image/favicon.ico" />
   </head>
   <body>
-    <header>
-      <div class="todo-image">
-        <img src="image/todo" alt="" />
+    <div class="overlay">
+      <header>
+        <div class="todo-image">
+          <img src="image/todo" alt="" />
+        </div>
+        <h1>APP</h1>
+      </header>
+      <form action="">
+        <input type="text" class="todo-input" />
+        <button class="todo-button" type="submit">
+          <span class="material-symbols-outlined">post_add</span>
+        </button>
+        <div class="select">
+          <select name="todos" class="filter-todo">
+            <option value="all">All</option>
+            <option value="done">Done</option>
+            <option value="undone">Undone</option>
+          </select>
+        </div>
+      </form>
+      <div class="todo-container">
+        <ul class="todo-list"></ul>
       </div>
-      <h1>APP</h1>
-    </header>
-    <form action="">
-      <input type="text" class="todo-input" />
-      <button class="todo-button" type="submit">
-        <span class="material-symbols-outlined">post_add</span>
-      </button>
-      <div class="select">
-        <select name="todos" class="filter-todo">
-          <option value="all">All</option>
-          <option value="done">Done</option>
-          <option value="undone">Undone</option>
-        </select>
-      </div>
-    </form>
-    <div class="todo-container">
-      <ul class="todo-list"></ul>
     </div>
     <script src="main.js"></script>
   </body>
